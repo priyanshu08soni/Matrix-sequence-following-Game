@@ -66,13 +66,8 @@ const Home = () => {
     <>
     <div className='home'>
         <section>
-            <div className='game'>           
-                <div className='row'>
-                    <div className='col-4'>
-                        <img className='image' src={img} alt="" style={{rotate:"50deg"}} />
-                        <img className='image' src={img} alt="" style={{rotate:"-110deg"}} />
-                    </div>
-                    <div className='col-4'>
+            <div className='row'>
+                <div>
                         <div className='container shadow-out'>
                             <div className="row">
                                 <div className="col shadow-in" style={{backgroundColor:color00}} onClick={
@@ -163,8 +158,6 @@ const Home = () => {
                             </div>
                         </div>
                         <button className='shadow-out' onClick={()=>window.location.reload()} >Reset</button>
-                    </div>
-                    <div className='col-4'></div>
                 </div>
             </div>
         </section>
@@ -181,11 +174,11 @@ const Home = () => {
                     <div className='desc'>First you will have to select all the boxes that are present in cube.</div>
                 </div>
                 <div className='detail'>
-                    <div className='count'>II</div>
+                    <div className='count'>II..</div>
                     <div className='desc'>You can also remember the sequence that you followed in filling these boxes with green color</div>
                 </div>
                 <div className='detail'>
-                    <div className='count'>III</div>
+                    <div className='count'>III.</div>
                     <div className='desc'>After filling boxes when you fill the last remaining box the automatic filling of the boxes with orange color will began.</div>
                 </div>
                 <div className='detail'>

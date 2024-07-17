@@ -56,7 +56,7 @@ const Header = () => {
      
     {/* main logo */}
       <div className="main-logo">
-        <img src={img} alt="" />
+        <img src={img} alt="" style={{width:"600px"}} />
       </div>
       <div style={{display:"flex",flexDirection:"column",height:"60px"}}>
         <img src={img2} alt="" className="image" />
