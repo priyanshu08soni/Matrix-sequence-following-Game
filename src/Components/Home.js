@@ -66,8 +66,7 @@ const Home = () => {
     <>
     <div className='home'>
         <section>
-            <div className='game'>
-                
+            <div className='game'>           
                 <div className='row'>
                     <div className='col-4'>
                         <img className='image' src={img} alt="" style={{rotate:"50deg"}} />
